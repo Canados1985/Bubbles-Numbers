@@ -1,0 +1,153 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1960316100834140}
+  m_IsPrefabAsset: 1
+--- !u!1 &1960316100834140
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4605177671909034}
+  - component: {fileID: 114869636875093254}
+  - component: {fileID: 114553031802357856}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4605177671909034
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1960316100834140}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114553031802357856
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1960316100834140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecb6982ef72846a479b3b38b15b08ed7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  helperRef: {fileID: 0}
+  stateManagerRef: {fileID: 0}
+  screenWidth: 0
+  screenHeight: 0
+  playableWidth: 0
+  playableHeight: 0
+  playerLostBubbleGM: 0
+  TESTPLAYERSPROGRESS: 0
+  mainCanvas: {fileID: 0}
+  progressBar: {fileID: 0}
+  playerTurnTextUI: {fileID: 0}
+  rebornPlayerBubbleTextUI: {fileID: 0}
+  bubblesController:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  go_Pool_Container: {fileID: 0}
+  go_TopPlatforms_Container: {fileID: 0}
+  go_BottonPlatforms_Container: {fileID: 0}
+  go_RightPlatforms_Container: {fileID: 0}
+  go_LeftPlatforms_Container: {fileID: 0}
+  go_Effects_Container: {fileID: 0}
+  touch_Effect: {fileID: 1891848749580296, guid: 94b8491e4d5d8164b95892432499cd64,
+    type: 2}
+  score_Prefab: {fileID: 1908264050723896, guid: 5c6f4a4fee455f14fba664f4da97afa3,
+    type: 2}
+  impact_Prefab: {fileID: 1375666706971150, guid: a8f286b2d150f3f47ab0f18c27cbd8da,
+    type: 2}
+  topPlatformsList: []
+  bottomPlatformsList: []
+  leftPlatformsList: []
+  rightPlatformsList: []
+  score: []
+  loot: []
+  effects: []
+  bubbles: []
+  bubblesEnd: []
+  explosionPrefab: {fileID: 1003799450031570, guid: 76509a8d17790d34c87f40de81cb6041,
+    type: 2}
+  explosion_poisonPrefab: {fileID: 1158017823180456, guid: af4b9b18b67bab0499b9d17d97ba5502,
+    type: 2}
+  bubblePrefab: {fileID: 1920186324210830, guid: 5db559f25ca3bc445851bf392579b9ea,
+    type: 2}
+  bubbleEndPrefab: {fileID: 1067506544694584, guid: f39e89de735bb154b814f6f104197320,
+    type: 2}
+  playerPrefab: {fileID: 1564416396442856, guid: d3acab4afa998934786b5bd6926c6d55,
+    type: 2}
+  platformEdgePrefab: {fileID: 1112267794538532, guid: 5953cc2fab765264883d105e0d203e6b,
+    type: 2}
+  mainCamera: {fileID: 0}
+  playerRef: {fileID: 0}
+  highScore: 0
+  highBubbleSize: 0
+  highKills: 0
+  touchEvent: 0
+  gameIsStarts: 0
+  GameIsOver: 0
+  deleteGame: 0
+  notSpawnNewBubbles: 0
+  playerTurn: 0
+  mute: 0
+  faqActive: 0
+  chanceToHavePotralOnTurn: 0
+  chanceToHavePortalTopBottomPanel: 0
+  chanceToHavePortalLeftRightPanel: 0
+  chanceToHaveZero: 0
+  zeroEdgeOnTop: 0
+  zeroEdgeOnRight: 0
+  zeroEdgeOnBottom: 0
+  zeroEdgeOnLeft: 0
+--- !u!114 &114869636875093254
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1960316100834140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb076e20b3662bb4cbbbba336caacda9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bomb_Loot: {fileID: 1965257352939116, guid: 3c17371970a30af459bd0455ac19bc8e, type: 2}
+  copy_Loot: {fileID: 1091157587874928, guid: d2539464bd863de45b5308de7b465590, type: 2}
+  life_Loot: {fileID: 1222058244543810, guid: 8641d16e8bcc16141b808ebc77bc61e6, type: 2}
+  lightning_Loot: {fileID: 1508298599515368, guid: 21dd57911c06db1438339bfa4e1f23e7,
+    type: 2}
+  shield_Loot: {fileID: 1725477832570964, guid: 9104dc165d20bfd4185b0319ac811c81,
+    type: 2}
+  frozen_Loot: {fileID: 1670527450992302, guid: 727f2f0c523e25d4d80963b3ebba9b82,
+    type: 2}
+  poison_Loot: {fileID: 1939674039786594, guid: 2b365311083d45342bc76cadb01c0f26,
+    type: 2}
+  allBubbleMoving: 1
+  playerCanBeSpawnAgain: 0

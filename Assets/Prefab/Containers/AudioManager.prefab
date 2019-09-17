@@ -1,0 +1,179 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1642896772434646}
+  m_IsPrefabAsset: 1
+--- !u!1 &1642896772434646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4866757900842754}
+  - component: {fileID: 114495787316885428}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 4294967295
+  m_IsActive: 1
+--- !u!4 &4866757900842754
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1642896772434646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114495787316885428
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1642896772434646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d9cf2f02f2333b4ca272b1d889a5d1e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: impact_UP
+    clip: {fileID: 8300000, guid: f7f58eba3fd839a40b32fffc297bffa1, type: 3}
+    volume: 0.5
+    loop: 0
+    source: {fileID: 0}
+  - name: impact_DOWN
+    clip: {fileID: 8300000, guid: 37fd74a9ddeb2194aa5021bcc9044186, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: impact_W_ICE
+    clip: {fileID: 8300000, guid: 3c6dde8126fc078409243b047bfc5c15, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: explosion
+    clip: {fileID: 8300000, guid: 90235fc6d1246e64b9ca45490288f52c, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: nuclear
+    clip: {fileID: 8300000, guid: 72818d853963b4248923abd117bce2af, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_popup_01
+    clip: {fileID: 8300000, guid: f2dc8c2f780395846bca4153517f979f, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_popup_02
+    clip: {fileID: 8300000, guid: f2e3ed01356d3f14ebe281b2d8d5cb0c, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_popup_03
+    clip: {fileID: 8300000, guid: 9b7979e76b5c5f64e825ac06b2e2a516, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_popup_04
+    clip: {fileID: 8300000, guid: 5b8f53f6bc41c4b47bf0801a542bc2d7, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_popup_05
+    clip: {fileID: 8300000, guid: 83802327a759d8e4ab097017ad33d16c, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_popup_06
+    clip: {fileID: 8300000, guid: 81764604e43a3b94d9cf75196ec1fba6, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_popup_07
+    clip: {fileID: 8300000, guid: 1316c11c6ebc53e4b9100a5aa583c10c, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_expl_01
+    clip: {fileID: 8300000, guid: 8de588a0fbf251f489328d3f4d962cbb, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_expl_02
+    clip: {fileID: 8300000, guid: 8d35bb9cac0ad904e94c3aded13e2014, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_expl_03
+    clip: {fileID: 8300000, guid: 0ba2e2509c3dc074091593896f2e2923, type: 3}
+    volume: 0.65
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_expl_04
+    clip: {fileID: 8300000, guid: f02c7393bfcc389419992262df822c02, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_expl_05
+    clip: {fileID: 8300000, guid: 243f2ffe5be368d4e9242626d2cb1c2d, type: 3}
+    volume: 0.65
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_expl_06
+    clip: {fileID: 8300000, guid: 44fafa8f66b91c844a61de656cedd3f4, type: 3}
+    volume: 0.65
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_expl_07
+    clip: {fileID: 8300000, guid: 9a8a641ce590be5459f2c4715179634b, type: 3}
+    volume: 0.65
+    loop: 0
+    source: {fileID: 0}
+  - name: bubble_expl_08
+    clip: {fileID: 8300000, guid: 01f959317d48313418f89225a56482b9, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: shield
+    clip: {fileID: 8300000, guid: 4c4d2a2ed7336a14aadc49e8449f1b90, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: portal
+    clip: {fileID: 8300000, guid: 28d8bb66385df6246899dd4b49287e17, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: life
+    clip: {fileID: 8300000, guid: 66b138cea038d3345a796e60fd2ec3e1, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: copy
+    clip: {fileID: 8300000, guid: e4eaf20b6771a2846b9d6efc1d144c44, type: 3}
+    volume: 0.45
+    loop: 0
+    source: {fileID: 0}
+  - name: frozen
+    clip: {fileID: 8300000, guid: 9eecba70e1c41564dbb499836f46fb0e, type: 3}
+    volume: 1
+    loop: 0
+    source: {fileID: 0}
